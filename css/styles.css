@@ -3041,8 +3041,8 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1D809F;
+  color: #ffffff;
+  background-color: #0099AD;
   border-color: #1D809F;
 }
 .btn-primary:hover {
@@ -3252,8 +3252,8 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #0099AD;
+  
 }
 .btn-dark:hover {
   color: #fff;
@@ -11351,7 +11351,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #0099AD;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11433,7 +11433,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/capa2.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/capa2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11488,7 +11488,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/Capa.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/Capa.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11581,4 +11581,19 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Meu CSS */
+
+#text-dois{
+  color: #f96c03;
+}
+
+#text-form{
+  color: white;
+}
+
+.bg-orange{
+  --bs-bg-opacity: 1;
+    background-color: #f96c03;
 }
